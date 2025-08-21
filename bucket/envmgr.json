@@ -1,5 +1,5 @@
 {
-    "version": "0.1.0",
+    "version": "1",
     "description": "A PowerShell script to manage Windows environment variables at user or system level with persistent storage.",
     "license": "MIT",
     "homepage": "https://github.com/k88936/envmgr",
