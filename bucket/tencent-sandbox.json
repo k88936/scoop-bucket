@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1",
     "description": "Windows Sandbox configuration for Tencent applications (QQ, WeChat, WeMeet, etc.)",
     "homepage": "https://github.com/k88936/tencent-sandbox",
     "license": "MIT",
