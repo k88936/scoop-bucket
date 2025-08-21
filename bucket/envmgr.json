@@ -1,29 +1,12 @@
 {
     "version": "0.1.0",
-    "description": "pwshrc is a lightweight PowerShell script that loads and parses Linux-style `.bashrc` files, automatically applying the configurations to the current PowerShell session. It's perfect for developers transitioning from Linux/Bash environments to Windows.",
+    "description": "A PowerShell script to manage Windows environment variables at user or system level with persistent storage.",
     "license": "MIT",
-    "homepage": "https://github.com/k88936/pwshrc",
-    "url": [
-        "https://raw.githubusercontent.com/k88936/pwshrc/refs/heads/main/.pwshrc.ps1",
-        "https://raw.githubusercontent.com/k88936/pwshrc/refs/heads/main/install.ps1",
-        "https://raw.githubusercontent.com/k88936/pwshrc/refs/heads/main/uninstall.ps1"
-    ],
-    "installer": {
-        "file": "install.ps1"
-    },
-    "uninstaller": {
-        "file": "uninstall.ps1"
-    },
-    "depends": [
-        "sudo",
-        "busybox"
-    ],
-    "checkver": "github",
+    "homepage": "https://github.com/k88936/envmgr",
+    "url": "https://github.com/k88936/envmgr/raw/refs/heads/main/envmgr.ps1",
+    "bin": "envmgr.ps1",
     "autoupdate": {
-        "url": [
-            "https://raw.githubusercontent.com/k88936/pwshrc/refs/heads/main/.pwshrc.ps1",
-            "https://raw.githubusercontent.com/k88936/pwshrc/refs/heads/main/install.ps1",
-            "https://raw.githubusercontent.com/k88936/pwshrc/refs/heads/main/uninstall.ps1"
-        ]
-    }
+        "url": "https://github.com/k88936/envmgr/raw/refs/heads/main/envmgr.ps1"
+    },
+    "checkver": "github"
 }
