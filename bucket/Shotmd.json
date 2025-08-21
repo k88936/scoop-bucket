@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "homepage": "https://github.com/k88936/Shotmd",
+  "url": "https://github.com/k88936/Shotmd/releases/download/v0.1.0/Shotmd.zip",
+  "extract_dir": "Shotmd",
+  "bin": "Shotmd.exe",
+  "shortcuts": [
+    [
+      "Shotmd.exe",
+      "Shotmd"
+    ]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://github.com/k88936/Shotmd/releases/download/v$version/Shotmd.zip",
+    "extract_dir": "Shotmd"
+  }
+}
