@@ -1,6 +1,6 @@
 {
     "version": "1",
-    "description": "",
+    "description": "this is a proxy service to wrap local ollama request with a basic auth header and https to remote ollama auth-required service",
     "license": "MIT",
     "homepage": "https://github.com/k88936/ollama-proxy",
     "url": [
