@@ -6,6 +6,9 @@
     "url": [
         "https://github.com/k88936/ollama-proxy/releases/download/v1/ollama-proxy.exe"
     ],
+    "depends": [
+        "nssm"
+    ],
     "installer": {
         "file": "install.ps1"
     },
