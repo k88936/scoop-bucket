@@ -9,7 +9,7 @@
     ],
     "url": [
         "https://github.com/k88936/tunet-rust/releases/download/v3/tunet.exe",
-        "https://github.com/k88936/tunet-rust/releases/download/v3/tunet-service.exe",
+        "https://github.com/k88936/tunet-rust/releases/download/v3/tunet-service.exe"
     ],
     "checkver": "github",
     "autoupdate": {
